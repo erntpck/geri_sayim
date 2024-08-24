@@ -8,6 +8,10 @@ document.getElementById("kalpButton").addEventListener("click", function() {
     startCountdown(targetDate);
 });
 
+document.getElementById("heartContainer").addEventListener("click", function() {
+    window.location.href = "https://youtu.be/BYBGnwwfh9A?si=jQ4JPBIY0auseoN3";
+});
+
 function startCountdown(targetDate) {
     clearInterval(window.countdownInterval); // Önceki geri sayımı temizle
     window.countdownInterval = setInterval(function() {
