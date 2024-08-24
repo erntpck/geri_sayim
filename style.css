@@ -15,3 +15,16 @@ button {
 p {
     color: #343a40;
 }
+
+#heartContainer {
+    font-size: 20rem;
+    color: red;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#heartContainer p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #343a40;
+}
