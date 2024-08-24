@@ -17,7 +17,7 @@ p {
 }
 
 #heartContainer {
-    font-size: 5rem;
+    font-size: 10rem;
     color: red;
     cursor: pointer;
     display: inline-block;
