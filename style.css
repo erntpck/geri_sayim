@@ -17,14 +17,19 @@ p {
 }
 
 #heartContainer {
-    font-size: 20rem;
+    font-size: 5rem;
     color: red;
     cursor: pointer;
     display: inline-block;
+    text-decoration: none; /* Alt çizgiyi kaldır */
 }
 
 #heartContainer p {
     font-size: 1.2rem;
     margin-top: 10px;
     color: #343a40;
+}
+
+#heartContainer:hover {
+    text-decoration: none; /* Alt çizgiyi hover durumunda da kaldır */
 }
